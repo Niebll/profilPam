@@ -18,19 +18,39 @@
             android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.Native"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ActivityUtama"
+            android:exported="false"
+            android:label="@string/title_activity_utama"
+            android:theme="@style/Theme.Native"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Native"
+            android:windowSoftInputMode="adjustResize"></activity>
+        >
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.Native"
             android:windowSoftInputMode="adjustResize">
         </activity>
         <activity
-            android:name=".ActivityUtama"
+            android:name=".tiket.halaman_tiket_screen"
             android:exported="true"
-            android:label="@string/title_activity_utama"
+            android:label="@string/title_activity_halaman_tiket_screen"
             android:theme="@style/Theme.Native"
-            android:windowSoftInputMode="adjustResize">
+            android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
