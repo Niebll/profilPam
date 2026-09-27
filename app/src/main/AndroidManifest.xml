@@ -30,27 +30,36 @@
             android:exported="false"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.Native"
-            android:windowSoftInputMode="adjustResize"></activity>
-        >
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".MainActivity3"
             android:exported="false"
             android:label="@string/title_activity_main3"
             android:theme="@style/Theme.Native"
-            android:windowSoftInputMode="adjustResize">
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".tiket.halaman_tiket_screen"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_halaman_tiket_screen"
             android:theme="@style/Theme.Native"
-            android:windowSoftInputMode="adjustResize" >
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".modul_4.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Native"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".tiket.TiketScreenHoistingState"
+            android:exported="true"
+            android:label="@string/title_activity_tiket_screen_hoisting_state"
+            android:theme="@style/Theme.Native"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

@@ -4,4 +4,6 @@
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_main3">MainActivity3</string>
     <string name="title_activity_halaman_tiket_screen">halaman_tiket_screen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tiket_screen_hoisting_state">TiketScreenHoistingState</string>
 </resources>
